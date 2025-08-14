@@ -1,0 +1,30 @@
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Local data/artifacts (keep secrets/private stuff out)
+logs/
+output_txt/
+output_ocr/
+test_pdfs/
+chroma_db/
+processing_log.txt
+glossary_terms.txt
+
+# Model weights or large binaries (never commit)
+*.gguf
+*.bin
+
+# Env files
+.env
